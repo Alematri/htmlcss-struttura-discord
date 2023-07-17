@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERAL */
+
+
+/* HEADER */
+
+header{
+  background-color: skyblue;
+  padding: 20px 0px;
+}
+
+nav{
+  background-color: skyblue;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 90%;
+
+}
+
+.logo, .nav-links , .login{
+  background-color: rgb(238, 255, 0);
+  padding: 10px;
+  border: dotted 1px black;
+}
+
+.logo, .login{
+  width: 20%;
+}
+
+.login{
+  text-align: end;
+}
+
+.nav-links{
+  text-align: center;
+  width: 60%;
+}
+
+.blue-box{
+  padding: 50px 0px;
+  background-color: blue;
+}
+
+.plum-box{
+  margin: auto;
+  max-width: 1200px;
+  width: 70%;
+  height: 400px;
+  background-color: plum;
+}
+
+.white-box, .grey-box{
+  padding: 50px 0px;
+}
+
+.white-box{
+  background-color: white;
+}
+
+.grey-box{
+  background-color: gray;
+}
+
+/* MAIN */
+
+/* main{
+  max-width: 1200px;
+  width: 90%;
+  background-color: rgb(255, 0, 0);
+  height: 10000px;
+  margin: auto;
+} */
+
+
+
+/* FOOTER */
