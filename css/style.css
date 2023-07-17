@@ -6,6 +6,15 @@
 
 /* GENERAL */
 
+.white-box, .grey-box, .blue-box{
+  padding: 50px 0px;
+  display: flex;
+}
+
+.sky-box, .pink-box, .green-box, .plum-box{ /* DA CANCELLARE */
+  height: 400px;                
+  border: dotted 3px black; 
+}
 
 /* HEADER */
 
@@ -23,9 +32,9 @@ nav{
 }
 
 .logo, .nav-links , .login{
-  background-color: orange;     /* DA CANCELLARE */
   padding: 10px;
-  border: dotted 1px black;     /* DA CANCELLARE */
+  background-color: orange;     /* DA CANCELLARE */
+  border: dotted 3px black;     /* DA CANCELLARE */
 }
 
 .logo, .login{
@@ -42,7 +51,6 @@ nav{
 }
 
 .blue-box{
-  padding: 50px 0px;
   background-color: blue;       /* DA CANCELLARE */
 }
 
@@ -50,19 +58,10 @@ nav{
   margin: auto;
   max-width: 900px;
   width: 70%;
-  height: 400px;                  /* DA CANCELLARE */
   background-color: plum;       /* DA CANCELLARE */
-  border: dotted 1px black;     /* DA CANCELLARE */ 
 }
 
 /* MAIN */
-
-.white-box, .grey-box{
-  padding: 50px 0px;
-  display: flex;
-  max-width: none;
-  width: 100%;
-}
 
 .white-box{
   background-color: white;
@@ -77,11 +76,6 @@ nav{
   width: 90%;
   max-width: 1200px;
   margin: auto;
-}
-
-.sky-box, .pink-box, .green-box{ /* DA CANCELLARE */
-  height: 400px;                
-  border: dotted 1px black; 
 }
 
 .sky-box{                       /* DA CANCELLARE */
@@ -118,3 +112,54 @@ nav{
 
 /* FOOTER */
 
+footer{
+  background-color: black;
+}
+
+.footer-links{  
+  padding-top: 20px;
+  }
+
+.border{
+  border-bottom: 1px solid white;
+}
+
+.red-box{
+  margin-bottom: 50px;
+  background-color: red;        /* DA CANCELLARE */
+  border: dotted 3px black;     /* DA CANCELLARE */
+  height: 400px;                  /* DA CANCELLARE */
+  width: 30%;                     /* DA CANCELLARE */
+}
+
+.yellow-box{
+  margin-bottom: 50px;
+  background-color: yellow;     /* DA CANCELLARE */
+  width: 70%;
+  display: flex;
+}
+
+.prodotto, .compagnia, .risorse, .norme{
+  background-color: yellow;     /* DA CANCELLARE */
+  border: dotted 3px blue;      /* DA CANCELLARE */
+  height: 400px;                  /* DA CANCELLARE */
+  width: 25%;
+}
+
+
+.purple-box{
+  margin-top: 50px;
+  background-color: purple;     /* DA CANCELLARE */
+  border: dotted 3px black;     /* DA CANCELLARE */
+  padding: 60px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo, .footer-button{
+  padding: 20px;
+  background-color: aqua;       /* DA CANCELLARE */
+  border: dotted 3px black;     /* DA CANCELLARE */
+}
